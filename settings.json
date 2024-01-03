@@ -1,66 +1,62 @@
 {
-  // open json editor for settings
-  "workbench.settings.editor": "json",
-  "files.autoSave": "afterDelay",
-
-  // Theme
-  "workbench.colorTheme": "MoonGun Dark Nietzsche",
+  "workbench.startupEditor": "none",
   "workbench.iconTheme": "moxer-icons",
-
-  // Change font
-  "editor.fontFamily": "Geist Mono",
-  "scm.inputFontFamily": "Geist Mono",
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-  "chat.editor.fontFamily": "Geist Mono",
-  "debug.console.fontFamily": "Geist Mono",
-  "editor.codeLensFontFamily": "Geist Mono",
-  "notebook.output.fontFamily": "Geist Mono",
-  "markdown.preview.fontFamily": "Geist Mono",
-  "editor.inlayHints.fontFamily": "Geist Mono",
-
-  // Font size
-  "editor.fontSize": 12,
-  "terminal.integrated.fontSize": 14,
+  "workbench.colorTheme": "MoonGun Dark Nietzsche",
+  "workbench.settings.editor": "json",
+  "breadcrumbs.enabled": false,
+  "explorer.compactFolders": false,
+  "editor.wordWrap": "bounded",
+  "editor.tabSize": 2,
+  "editor.inlineSuggest.enabled": true,
   "editor.minimap.enabled": false,
-  "window.commandCenter": false,
-  "editor.scrollbar.vertical": "auto",
-  "window.titleBarStyle": "custom",
-  "editor.scrollbar.horizontal": "auto",
-
+  "editor.fontFamily": "Geist Mono",
+  "terminal.integrated.fontFamily": "Geist Mono",
+  "terminal.integrated.fontSize": 12,
+  "editor.fontSize": 14,
+  "explorer.confirmDelete": false,
+  "apc.font.family": "Geist Mono",
+  "files.autoSave": "afterDelay",
   "apc.activityBar": {
     "position": "bottom",
     "hideSettings": true,
-    "size": 28
+    "size": 20
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 22,
+    "fontSize": 11,
   },
   "apc.electron": {
     "titleBarStyle": "hiddenInset",
     "trafficLightPosition": {
-      "x": 12,
+      "x": 8,
       "y": 10
     }
   },
-  "apc.font.family": "Geist Mono",
-  "apc.monospace.font.family": "Geist Mono",
-  "apc.statusBar": {
-    "position": "editor-bottom",
-    "height": 28,
-    "fontSize": 12
+  "apc.header": {
+    "height": 34,
+    "fontSize": 14
   },
-
-  // Cusom css
-  "apc.stylesheet": {
-    ".sidebar > .composite": "height: 12px !important",
-    ".title-label": "display: none !important",
-    ".title-actions": "display: none !important",
-    ".tabs-and-actions-container > .editor-actions": "display: none !important",
-    ".titlebar-center": "display: none !important",
-    ".titlebar-right": "display: none !important",
-    ".inline-tabs-placeholder": "display: none !important",
-    ".split-view-view .visible": "background-color: #110f17 !important"
+  "apc.listRow": {
+    "height": 21,
+    "fontSize": 15
   },
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "window.zoomLevel": 0,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
 
-  // Toggle excluded files
+  // used by the toggle excluded files extension
   "files.exclude": {
+    "**/.open-next": true,
+    "**/.sst": true,
+    "**/.nx": true,
+    "**/.turbo": true,
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
@@ -68,46 +64,137 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/node_modules": true,
-    "**/.next": true,
     "**/.husky": true,
-    "**/drizzle": true,
-    "**/dist": true,
-    "**/.todo.md": true,
-    "**/.vscode": true,
-    "**/.eslintrc.cjs": true,
-    "**/.editorconfig": true,
+    "**/.github": true,
     "**/.gitignore": true,
-    "**/.lintstagedrc.mjs": true,
-    "**/.markdownlint.json": true,
-    "**/.markdownlintignore": true,
-    "**/.prettierignore": true,
-    "**/bun.lockb": true,
-    "**/cspell.json": true,
-    "**/package-lock.json": true,
-    "**/pnpm-lock.yaml": true,
-    "**/next-env.d.ts": true,
-    "**/postcss.config.cjs": true,
-    "**/prettier.config.js": true,
-    "**/README.md": true,
-    "**/next.config.js": true,
-    "**/tailwind.config.ts": true,
-    "**/drizzle.config.ts": true,
-    "**/migrate.ts": true,
-    "**/.env.example": true
+    "**/dist": true,
+    "**/.next": true,
+    "**/*.tsbuildinfo": true,
+    "**/.astro": true
   },
-
-
-  // Misc
-  "workbench.startupEditor": "none",
-  "explorer.compactFolders": false,
-  "editor.tabSize": 2,
-  "editor.linkedEditing": true,
-  "breadcrumbs.filePath": "off",
-  "files.trimTrailingWhitespace": true,
-  "[markdown]": {
-    "files.trimTrailingWhitespace": false
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": true,
-  "window.zoomLevel": 0,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "githubPullRequests.pullBranch": "never",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true,
+    "live-preview-extension": true
+  },
+  "files.associations": {
+    "*.html": "html",
+    "*.js": "javascript"
+  },
+  "tailwindCSS.classAttributes": ["class", "className", "ngClass", "variant"],
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css",
+    "python": "python"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.experimental.configFile": null,
+  "console-ninja.featureSet": "Community",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+    }
+  },
+  "terminal.integrated.env.osx": {}
 }
+
+
+
+
+
+// {
+//     "workbench.iconTheme": "material-icon-theme",
+//     "liveServer.settings.donotShowInfoMsg": true,
+//     "liveServer.settings.donotVerifyTags": true,
+//     "terminal.integrated.env.osx": {},
+//     "files.autoSave": "afterDelay",
+//     "explorer.confirmDelete": false,
+//     "terminal.integrated.fontFamily": "MesloLGS NF",
+//     "[javascriptreact]": {
+//         "editor.defaultFormatter": "vscode.typescript-language-features"
+//     },
+//     "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+//         "live-server-extension": true,
+//         "live-preview-extension": true
+//     },
+//     "files.associations": {
+//         "*.html": "html",
+//         "*.js": "javascript"
+//     },
+//     "workbench.colorTheme": "MoonGun Dark",
+//     "tailwindCSS.classAttributes": [
+//         "class",
+//         "className",
+//         "ngClass",
+//         "variant"
+//     ],
+//     "css.enabledLanguages": [
+//         "javascript",
+//         "html",
+//         "python"
+//     ],
+//     "tailwindCSS.includeLanguages": {
+//         "html": "html",
+//         "javascript": "javascript",
+//         "css": "css",
+//         "python": "python"
+//     },
+//     "editor.quickSuggestions": {
+//         "strings": true
+//     },
+//     "tailwindCSS.experimental.configFile": null,
+//     "synthwave84.brightness": 0,
+//     "console-ninja.featureSet": "Community",
+//     "[python]": {
+//         "editor.defaultFormatter": "ms-python.black-formatter",
+//         "editor.formatOnSave": true,
+//         "editor.codeActionsOnSave": {
+//             "source.organizeImports": "explicit"
+//         },
+//     },
+//     "isort.args": [
+//         "--profile",
+//         "black"
+//     ],
+//     "[html]": {
+//         "editor.defaultFormatter": "vscode.html-language-features"
+//     },
+//     "[css]": {
+//         "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     "cloudcode.duetAI.project": "fiery-journal-385016",
+//     "[json]": {
+//         "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     "githubPullRequests.pullBranch": "never",
+//     "[javascript]": {
+//         "editor.defaultFormatter": "vscode.typescript-language-features"
+//     },
+//     "[jsonc]": {
+//         "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+
+// }
