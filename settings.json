@@ -72,25 +72,7 @@
     "**/*.tsbuildinfo": true,
     "**/.astro": true
   },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "githubPullRequests.pullBranch": "never",
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
   "console-ninja.toolsToEnableSupportAutomaticallyFor": {
     "live-server-extension": true,
     "live-preview-extension": true
@@ -118,9 +100,9 @@
     "source.organizeImports": "explicit"
     }
   },
-  "terminal.integrated.env.osx": {}
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.env.windows": {}
 }
-
 
 
 
