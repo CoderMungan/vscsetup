@@ -1,7 +1,7 @@
 {
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "moxer-icons",
-  "workbench.colorTheme": "MoonGun Dark Nietzsche",
+  "workbench.colorTheme": "MoonGun Dark Inesh",
   "workbench.settings.editor": "json",
   "breadcrumbs.enabled": false,
   "explorer.compactFolders": false,
@@ -12,14 +12,14 @@
   "editor.fontFamily": "Geist Mono",
   "terminal.integrated.fontFamily": "Geist Mono",
   "terminal.integrated.fontSize": 12,
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "explorer.confirmDelete": false,
   "apc.font.family": "Geist Mono",
   "files.autoSave": "afterDelay",
   "apc.activityBar": {
     "position": "bottom",
     "hideSettings": true,
-    "size": 20
+    "size": 25
   },
   "apc.statusBar": {
     "position": "editor-bottom",
@@ -50,28 +50,6 @@
   "typescript.updateImportsOnFileMove.enabled": "never",
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
-
-  // used by the toggle excluded files extension
-  "files.exclude": {
-    "**/.open-next": true,
-    "**/.sst": true,
-    "**/.nx": true,
-    "**/.turbo": true,
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true,
-    "**/node_modules": true,
-    "**/.husky": true,
-    "**/.github": true,
-    "**/.gitignore": true,
-    "**/dist": true,
-    "**/.next": true,
-    "**/*.tsbuildinfo": true,
-    "**/.astro": true
-  },
   "githubPullRequests.pullBranch": "never",
   "console-ninja.toolsToEnableSupportAutomaticallyFor": {
     "live-server-extension": true,
@@ -101,82 +79,11 @@
     }
   },
   "terminal.integrated.env.osx": {},
-  "terminal.integrated.env.windows": {}
+  "terminal.integrated.env.windows": {},
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
-
-
-
-
-// {
-//     "workbench.iconTheme": "material-icon-theme",
-//     "liveServer.settings.donotShowInfoMsg": true,
-//     "liveServer.settings.donotVerifyTags": true,
-//     "terminal.integrated.env.osx": {},
-//     "files.autoSave": "afterDelay",
-//     "explorer.confirmDelete": false,
-//     "terminal.integrated.fontFamily": "MesloLGS NF",
-//     "[javascriptreact]": {
-//         "editor.defaultFormatter": "vscode.typescript-language-features"
-//     },
-//     "console-ninja.toolsToEnableSupportAutomaticallyFor": {
-//         "live-server-extension": true,
-//         "live-preview-extension": true
-//     },
-//     "files.associations": {
-//         "*.html": "html",
-//         "*.js": "javascript"
-//     },
-//     "workbench.colorTheme": "MoonGun Dark",
-//     "tailwindCSS.classAttributes": [
-//         "class",
-//         "className",
-//         "ngClass",
-//         "variant"
-//     ],
-//     "css.enabledLanguages": [
-//         "javascript",
-//         "html",
-//         "python"
-//     ],
-//     "tailwindCSS.includeLanguages": {
-//         "html": "html",
-//         "javascript": "javascript",
-//         "css": "css",
-//         "python": "python"
-//     },
-//     "editor.quickSuggestions": {
-//         "strings": true
-//     },
-//     "tailwindCSS.experimental.configFile": null,
-//     "synthwave84.brightness": 0,
-//     "console-ninja.featureSet": "Community",
-//     "[python]": {
-//         "editor.defaultFormatter": "ms-python.black-formatter",
-//         "editor.formatOnSave": true,
-//         "editor.codeActionsOnSave": {
-//             "source.organizeImports": "explicit"
-//         },
-//     },
-//     "isort.args": [
-//         "--profile",
-//         "black"
-//     ],
-//     "[html]": {
-//         "editor.defaultFormatter": "vscode.html-language-features"
-//     },
-//     "[css]": {
-//         "editor.defaultFormatter": "esbenp.prettier-vscode"
-//     },
-//     "cloudcode.duetAI.project": "fiery-journal-385016",
-//     "[json]": {
-//         "editor.defaultFormatter": "esbenp.prettier-vscode"
-//     },
-//     "githubPullRequests.pullBranch": "never",
-//     "[javascript]": {
-//         "editor.defaultFormatter": "vscode.typescript-language-features"
-//     },
-//     "[jsonc]": {
-//         "editor.defaultFormatter": "esbenp.prettier-vscode"
-//     },
-
-// }
