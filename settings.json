@@ -1,8 +1,7 @@
 {
   "workbench.startupEditor": "none",
-  "workbench.iconTheme": "moxer-icons",
-  "workbench.colorTheme": "MoonGun Dark Inesh",
   "workbench.settings.editor": "json",
+  "workbench.tree.indent": 25,
   "breadcrumbs.enabled": false,
   "explorer.compactFolders": false,
   "editor.wordWrap": "bounded",
@@ -85,5 +84,9 @@
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "tabnine.experimentalAutoImports": true,
+  "codeQL.telemetry.enableTelemetry": true,
+  "workbench.colorTheme": "MoonGun Dark Inesh",
+  "workbench.iconTheme": "moxer-icons"
 }
