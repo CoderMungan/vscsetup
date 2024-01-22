@@ -1,0 +1,129 @@
+{
+  // open json editor for settings
+  "workbench.settings.editor": "json",
+  "files.autoSave": "afterDelay",
+  // Theme
+  "workbench.colorTheme": "MoonGun Dark Nietzsche",
+  "workbench.iconTheme": "moxer-icons",
+  // Change font
+  "editor.fontFamily": "Geist Mono",
+  "scm.inputFontFamily": "Geist Mono",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "chat.editor.fontFamily": "Geist Mono",
+  "debug.console.fontFamily": "Geist Mono",
+  "editor.codeLensFontFamily": "Geist Mono",
+  "notebook.output.fontFamily": "Geist Mono",
+  "markdown.preview.fontFamily": "Geist Mono",
+  "editor.inlayHints.fontFamily": "Geist Mono",
+  // Font size
+  "editor.fontSize": 15,
+  "terminal.integrated.fontSize": 13,
+  // ui
+  "editor.minimap.enabled": false,
+  "workbench.tree.indent": 25,
+  "window.commandCenter": false,
+  "editor.scrollbar.vertical": "auto",
+  "window.titleBarStyle": "custom",
+  "editor.scrollbar.horizontal": "auto",
+  // APC
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 28
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 12,
+      "y": 10
+    }
+  },
+  "apc.font.family": "Geist Mono",
+  "apc.monospace.font.family": "Geist Mono",
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 28,
+    "fontSize": 12
+  },
+  // Cusom css
+  "apc.stylesheet": {
+    ".sidebar > .composite": "height: 12px !important",
+    ".title-label": "display: none !important",
+    ".title-actions": "display: none !important",
+    ".tabs-and-actions-container > .editor-actions": "display: none !important",
+    ".titlebar-center": "display: none !important",
+    ".titlebar-right": "display: none !important",
+    ".inline-tabs-placeholder": "display: none !important",
+    ".split-view-view .visible": "background-color: #110f17 !important"
+  },
+  // Aura theme customisation
+  "workbench.colorCustomizations": {
+    "[Aura Dark]": {
+      "editor.background": "#110f17",
+      "terminal.background": "#110f17",
+      "activityBar.background": "#110f17",
+      "statusBar.background": "#110f17",
+      "editorGroupHeader.tabsBackground": "#110f17",
+      "tab.inactiveBackground": "#110f17"
+    }
+  },
+  // Misc
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "breadcrumbs.filePath": "off",
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "window.zoomLevel": 0,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "githubPullRequests.pullBranch": "never",
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true,
+    "live-preview-extension": true
+  },
+  "files.associations": {
+    "*.html": "html",
+    "*.js": "javascript"
+  },
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "variant"
+  ],
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css",
+    "python": "python"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.experimental.configFile": null,
+  "console-ninja.featureSet": "Community",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.env.windows": {},
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
