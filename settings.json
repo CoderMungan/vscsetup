@@ -1,51 +1,85 @@
 {
-  "workbench.startupEditor": "none",
+  // open json editor for settings
   "workbench.settings.editor": "json",
-  "workbench.tree.indent": 25,
-  "breadcrumbs.enabled": false,
-  "explorer.compactFolders": false,
-  "editor.wordWrap": "bounded",
-  "editor.tabSize": 2,
-  "editor.inlineSuggest.enabled": true,
-  "editor.minimap.enabled": false,
-  "editor.fontFamily": "Geist Mono",
-  "terminal.integrated.fontFamily": "Geist Mono",
-  "terminal.integrated.fontSize": 12,
-  "editor.fontSize": 15,
-  "explorer.confirmDelete": false,
-  "apc.font.family": "Geist Mono",
   "files.autoSave": "afterDelay",
+  // Theme
+  "workbench.colorTheme": "MoonGun Dark Nietzsche",
+  "workbench.iconTheme": "moxer-icons",
+  // Change font
+  "editor.fontFamily": "Geist Mono",
+  "scm.inputFontFamily": "Geist Mono",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "chat.editor.fontFamily": "Geist Mono",
+  "debug.console.fontFamily": "Geist Mono",
+  "editor.codeLensFontFamily": "Geist Mono",
+  "notebook.output.fontFamily": "Geist Mono",
+  "markdown.preview.fontFamily": "Geist Mono",
+  "editor.inlayHints.fontFamily": "Geist Mono",
+  // Font size
+  "editor.fontSize": 15,
+  "terminal.integrated.fontSize": 14,
+  // ui
+  "editor.minimap.enabled": false,
+  "workbench.tree.indent": 25,
+  "window.commandCenter": false,
+  "editor.scrollbar.vertical": "auto",
+  "window.titleBarStyle": "custom",
+  "editor.scrollbar.horizontal": "auto",
+  // APC
   "apc.activityBar": {
     "position": "bottom",
     "hideSettings": true,
-    "size": 25
-  },
-  "apc.statusBar": {
-    "position": "editor-bottom",
-    "height": 22,
-    "fontSize": 11,
+    "size": 28
   },
   "apc.electron": {
     "titleBarStyle": "hiddenInset",
     "trafficLightPosition": {
-      "x": 8,
+      "x": 12,
       "y": 10
     }
   },
-  "apc.header": {
-    "height": 34,
-    "fontSize": 14
+  "apc.font.family": "Geist Mono",
+  "apc.monospace.font.family": "Geist Mono",
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 28,
+    "fontSize": 12
   },
-  "apc.listRow": {
-    "height": 21,
-    "fontSize": 15
+  // Cusom css
+  "apc.stylesheet": {
+    ".sidebar > .composite": "height: 12px !important",
+    ".title-label": "display: none !important",
+    ".title-actions": "display: none !important",
+    ".tabs-and-actions-container > .editor-actions": "display: none !important",
+    ".titlebar-center": "display: none !important",
+    ".titlebar-right": "display: none !important",
+    ".inline-tabs-placeholder": "display: none !important",
+    ".split-view-view .visible": "background-color: #110f17 !important"
   },
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
+  //Themes Customizations
+  "workbench.colorCustomizations": {
+    "[MoonGun Dark Nietzsche]": {
+      "editor.background": "#110f17",
+      "terminal.background": "#110f17",
+      "activityBar.background": "#110f17",
+      "statusBar.background": "#110f17",
+      "editorGroupHeader.tabsBackground": "#110f17",
+      "tab.inactiveBackground": "#110f17"
+    }
+  },
+  // Misc
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "breadcrumbs.filePath": "off",
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
   "window.zoomLevel": 0,
-  "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
-  },
   "typescript.updateImportsOnFileMove.enabled": "never",
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
@@ -58,7 +92,12 @@
     "*.html": "html",
     "*.js": "javascript"
   },
-  "tailwindCSS.classAttributes": ["class", "className", "ngClass", "variant"],
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "variant"
+  ],
   "tailwindCSS.includeLanguages": {
     "html": "html",
     "javascript": "javascript",
@@ -72,9 +111,8 @@
   "console-ninja.featureSet": "Community",
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit"
+      "source.organizeImports": "explicit"
     }
   },
   "terminal.integrated.env.osx": {},
@@ -85,8 +123,4 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "tabnine.experimentalAutoImports": true,
-  "codeQL.telemetry.enableTelemetry": true,
-  "workbench.colorTheme": "MoonGun Dark Inesh",
-  "workbench.iconTheme": "moxer-icons"
 }
