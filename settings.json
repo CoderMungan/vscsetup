@@ -2,8 +2,6 @@
   // open json editor for settings
   "workbench.settings.editor": "json",
   "files.autoSave": "afterDelay",
-  // Theme
-  "workbench.colorTheme": "MoonGun Dark Nietzsche",
   "workbench.iconTheme": "moxer-icons",
   // Change font
   "editor.fontFamily": "Geist Mono",
@@ -23,7 +21,6 @@
   "workbench.tree.indent": 25,
   "window.commandCenter": false,
   "editor.scrollbar.vertical": "auto",
-  "window.titleBarStyle": "custom",
   "editor.scrollbar.horizontal": "auto",
   // APC
   "apc.activityBar": {
@@ -121,6 +118,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "workbench.colorTheme": "MoonGun Dark Nietzsche",
+  "vscode-pets.theme": "forest",
 }
